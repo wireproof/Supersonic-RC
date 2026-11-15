@@ -1,0 +1,68 @@
+-- Parent Script
+on new
+  [0000] pushCons         0
+  [0002] pushArgList      1
+  [0004] extCall          112
+  [0006] pushArgList      1
+  [0008] objCall          272
+  [0011] setProp          271
+  [0014] pushSymb         0
+  [0016] getParam         0
+  [0018] getParam         1
+  [0020] pushArgListNoRet 3
+  [0022] extCall          273
+  [0025] getParam         0
+  [0027] pushArgListNoRet 1
+  [0029] extCall          87
+  [0031] ret             
+end
+
+on setRange
+  [0000] getParam         1
+  [0002] setProp          97
+  [0004] ret             
+end
+
+on setValue
+  [0000] getProp          97
+  [0002] pushArgList      1
+  [0004] extCall          90
+  [0006] pushZero        
+  [0007] eq              
+  [0008] jmpIfZ           62
+  [0011] getParam         1
+  [0013] pushArgList      1
+  [0015] extCall          257
+  [0018] setParam         1
+  [0020] getParam         1
+  [0022] pushArgList      1
+  [0024] extCall          90
+  [0026] pushInt8         1
+  [0028] eq              
+  [0029] jmpIfZ           7
+  [0032] pushArgListNoRet 0
+  [0034] extCall          87
+  [0036] getParam         1
+  [0038] getProp          97
+  [0040] pushInt8         2
+  [0042] pushArgList      2
+  [0044] objCall          95
+  [0046] pushArgList      2
+  [0048] extCall          330
+  [0051] setParam         1
+  [0053] getParam         1
+  [0055] getProp          97
+  [0057] pushInt8         1
+  [0059] pushArgList      2
+  [0061] objCall          95
+  [0063] pushArgList      2
+  [0065] extCall          360
+  [0068] setParam         1
+  [0070] pushSymb         332
+  [0073] getParam         0
+  [0075] getParam         1
+  [0077] getParam         2
+  [0079] pushArgListNoRet 4
+  [0081] extCall          273
+  [0084] ret             
+end

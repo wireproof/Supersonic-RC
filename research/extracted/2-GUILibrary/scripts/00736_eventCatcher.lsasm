@@ -1,0 +1,140 @@
+-- Score Script
+on new
+  [0000] getParam         1
+  [0002] setProp          244
+  [0004] getParam         0
+  [0006] pushArgListNoRet 1
+  [0008] extCall          87
+  [0010] ret             
+end
+
+on mouseUp
+  [0000] pushSymb         41
+  [0002] getParam         0
+  [0004] getObjProp       244
+  [0006] pushArgList      1
+  [0008] pushList        
+  [0009] pushArgListNoRet 2
+  [0011] extCall          83
+  [0013] pushArgListNoRet 0
+  [0015] extCall          246
+  [0017] ret             
+end
+
+on exitFrame
+  [0000] pushSymb         239
+  [0002] getParam         0
+  [0004] getObjProp       244
+  [0006] pushArgList      1
+  [0008] pushList        
+  [0009] pushArgListNoRet 2
+  [0011] extCall          83
+  [0013] ret             
+end
+
+on prepareFrame
+  [0000] pushSymb         240
+  [0002] getParam         0
+  [0004] getObjProp       244
+  [0006] pushArgList      1
+  [0008] pushList        
+  [0009] pushArgListNoRet 2
+  [0011] extCall          83
+  [0013] ret             
+end
+
+on mouseDown
+  [0000] pushSymb         42
+  [0002] getParam         0
+  [0004] getObjProp       244
+  [0006] pushArgList      1
+  [0008] pushList        
+  [0009] pushArgListNoRet 2
+  [0011] extCall          83
+  [0013] pushArgListNoRet 0
+  [0015] extCall          246
+  [0017] ret             
+end
+
+on mouseEnter
+  [0000] pushSymb         38
+  [0002] getParam         0
+  [0004] getObjProp       244
+  [0006] pushArgList      1
+  [0008] pushList        
+  [0009] pushArgListNoRet 2
+  [0011] extCall          83
+  [0013] ret             
+end
+
+on mouseLeave
+  [0000] pushSymb         40
+  [0002] getParam         0
+  [0004] getObjProp       244
+  [0006] pushArgList      1
+  [0008] pushList        
+  [0009] pushArgListNoRet 2
+  [0011] extCall          83
+  [0013] ret             
+end
+
+on mouseUpOutSide
+  [0000] pushSymb         43
+  [0002] getParam         0
+  [0004] getObjProp       244
+  [0006] pushArgList      1
+  [0008] pushList        
+  [0009] pushArgListNoRet 2
+  [0011] extCall          83
+  [0013] ret             
+end
+
+on mouseWithin
+  [0000] pushSymb         39
+  [0002] getParam         0
+  [0004] getObjProp       244
+  [0006] pushArgList      1
+  [0008] pushList        
+  [0009] pushArgListNoRet 2
+  [0011] extCall          83
+  [0013] ret             
+end
+
+on keyDown
+  [0000] pushSymb         241
+  [0002] getParam         0
+  [0004] getObjProp       244
+  [0006] pushArgList      1
+  [0008] pushList        
+  [0009] pushArgListNoRet 2
+  [0011] extCall          83
+  [0013] pushArgListNoRet 0
+  [0015] extCall          246
+  [0017] ret             
+end
+
+on keyUp
+  [0000] pushSymb         242
+  [0002] getParam         0
+  [0004] getObjProp       244
+  [0006] pushArgList      1
+  [0008] pushList        
+  [0009] pushArgListNoRet 2
+  [0011] extCall          83
+  [0013] ret             
+end
+
+on hyperlinkClicked
+  [0000] pushSymb         243
+  [0002] getParam         0
+  [0004] getObjProp       244
+  [0006] pushArgList      1
+  [0008] pushList        
+  [0009] getParam         1
+  [0011] getParam         2
+  [0013] getParam         3
+  [0015] getParam         4
+  [0017] pushArgListNoRet 6
+  [0019] extCall          83
+  [0021] ret             
+end

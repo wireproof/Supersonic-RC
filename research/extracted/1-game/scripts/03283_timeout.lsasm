@@ -1,0 +1,38 @@
+-- Parent Script
+on new
+  [0000] getParam         1
+  [0002] setProp          435
+  [0005] getMovieProp     150
+  [0007] getParam         2
+  [0009] add             
+  [0010] setProp          555
+  [0013] getMovieProp     41
+  [0015] getParam         0
+  [0017] pushArgListNoRet 2
+  [0019] objCall          40
+  [0021] ret             
+end
+
+on stepFrame
+  [0000] getMovieProp     150
+  [0002] getProp          555
+  [0005] gt              
+  [0006] jmpIfZ           17
+  [0009] getProp          435
+  [0012] pushArgListNoRet 1
+  [0014] extCall          439
+  [0017] getParam         0
+  [0019] pushArgListNoRet 1
+  [0021] objCall          11
+  [0023] ret             
+end
+
+on destroy
+  [0000] getMovieProp     41
+  [0002] getParam         0
+  [0004] pushArgListNoRet 2
+  [0006] objCall          118
+  [0008] pushZero        
+  [0009] setProp          435
+  [0012] ret             
+end

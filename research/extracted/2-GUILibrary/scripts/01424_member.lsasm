@@ -1,0 +1,48 @@
+-- Movie Script
+on paramPresent
+  [0000] getParam         0
+  [0002] pushArgList      1
+  [0004] extCall          91
+  [0006] peek             0
+  [0008] pushSymb         139
+  [0010] eq              
+  [0011] jmpIfZ           35
+  [0014] getParam         0
+  [0016] getParam         1
+  [0018] pushArgList      2
+  [0020] objCall          358
+  [0023] pushZero        
+  [0024] ntEq            
+  [0025] jmpIfZ           11
+  [0028] pop              1
+  [0030] pushInt8         1
+  [0032] pushArgListNoRet 1
+  [0034] extCall          87
+  [0036] pop              1
+  [0038] pushZero        
+  [0039] pushArgListNoRet 1
+  [0041] extCall          87
+  [0043] jmp              14
+  [0046] pop              1
+  [0048] getParam         0
+  [0050] getParam         1
+  [0052] eq              
+  [0053] pushArgListNoRet 1
+  [0055] extCall          87
+  [0057] pop              1
+  [0059] ret             
+end
+
+on nextMember
+  [0000] getParam         0
+  [0002] getObjProp       502
+  [0005] pushInt8         1
+  [0007] add             
+  [0008] getParam         0
+  [0010] getObjProp       280
+  [0013] pushArgList      2
+  [0015] extCall          168
+  [0017] pushArgListNoRet 1
+  [0019] extCall          87
+  [0021] ret             
+end

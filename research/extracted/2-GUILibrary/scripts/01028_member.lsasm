@@ -1,0 +1,35 @@
+-- Movie Script
+on showAll
+  [0000] pushInt8         1
+  [0002] setLocal         0
+  [0004] getLocal         0
+  [0006] pushInt16        200
+  [0009] ltEq            
+  [0010] jmpIfZ           22
+  [0013] getLocal         0
+  [0015] pushArgList      1
+  [0017] extCall          231
+  [0019] pushInt8         1
+  [0021] setObjProp       166
+  [0023] pushInt8         1
+  [0025] getLocal         0
+  [0027] add             
+  [0028] setLocal         0
+  [0030] endRepeat        26
+  [0032] ret             
+end
+
+on sign
+  [0000] getParam         0
+  [0002] pushZero        
+  [0003] gtEq            
+  [0004] jmpIfZ           9
+  [0007] pushInt8         1
+  [0009] pushArgListNoRet 1
+  [0011] extCall          87
+  [0013] pushInt8         1
+  [0015] inv             
+  [0016] pushArgListNoRet 1
+  [0018] extCall          87
+  [0020] ret             
+end

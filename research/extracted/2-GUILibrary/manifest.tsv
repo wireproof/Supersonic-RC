@@ -1,0 +1,137 @@
+member_id	member_type	member_name	script_id	chunk_id	fourcc	asset_path
+4	script	sprite	1	1456	LS	scripts/00004_sprite.ls
+4	script	sprite	1	1456	LSASM	scripts/00004_sprite.lsasm
+5	script	nameASprite	2	1457	LS	scripts/00005_nameASprite.ls
+5	script	nameASprite	2	1457	LSASM	scripts/00005_nameASprite.lsasm
+736	script	eventCatcher	3	1458	LS	scripts/00736_eventCatcher.ls
+736	script	eventCatcher	3	1458	LSASM	scripts/00736_eventCatcher.lsasm
+678	script	cachedScoreDataTools	4	1459	LS	scripts/00678_cachedScoreDataTools.ls
+678	script	cachedScoreDataTools	4	1459	LSASM	scripts/00678_cachedScoreDataTools.lsasm
+7	script	spriteWithButtonMembers	5	1460	LS	scripts/00007_spriteWithButtonMembers.ls
+7	script	spriteWithButtonMembers	5	1460	LSASM	scripts/00007_spriteWithButtonMembers.lsasm
+726	script	buttonBase	6	1461	LS	scripts/00726_buttonBase.ls
+726	script	buttonBase	6	1461	LSASM	scripts/00726_buttonBase.lsasm
+8	script	standardButton	7	1462	LS	scripts/00008_standardButton.ls
+8	script	standardButton	7	1462	LSASM	scripts/00008_standardButton.lsasm
+9	script	pulsingbutton	8	1463	LS	scripts/00009_pulsingbutton.ls
+9	script	pulsingbutton	8	1463	LSASM	scripts/00009_pulsingbutton.lsasm
+740	script	togglebutton	9	1464	LS	scripts/00740_togglebutton.ls
+740	script	togglebutton	9	1464	LSASM	scripts/00740_togglebutton.lsasm
+741	script	selectionGroupButton	10	1465	LS	scripts/00741_selectionGroupButton.ls
+741	script	selectionGroupButton	10	1465	LSASM	scripts/00741_selectionGroupButton.lsasm
+733	script	selectionGroup	11	1466	LS	scripts/00733_selectionGroup.ls
+733	script	selectionGroup	11	1466	LSASM	scripts/00733_selectionGroup.lsasm
+822	script	multistatebutton	12	1467	LS	scripts/00822_multistatebutton.ls
+822	script	multistatebutton	12	1467	LSASM	scripts/00822_multistatebutton.lsasm
+1445	script	callback	13	1468	LS	scripts/01445_callback.ls
+1445	script	callback	13	1468	LSASM	scripts/01445_callback.lsasm
+735	script	3dpi_togglebuttongroup	14	1469	LS	scripts/00735_3dpi_togglebuttongroup.ls
+735	script	3dpi_togglebuttongroup	14	1469	LSASM	scripts/00735_3dpi_togglebuttongroup.lsasm
+825	script	3dpi_togglebutton	15	1470	LS	scripts/00825_3dpi_togglebutton.ls
+825	script	3dpi_togglebutton	15	1470	LSASM	scripts/00825_3dpi_togglebutton.lsasm
+714	script	3DPI_Gfx_Generator	16	1471	LS	scripts/00714_3DPI_Gfx_Generator.ls
+714	script	3DPI_Gfx_Generator	16	1471	LSASM	scripts/00714_3DPI_Gfx_Generator.lsasm
+515	script	numberDisplay	17	1472	LS	scripts/00515_numberDisplay.ls
+515	script	numberDisplay	17	1472	LSASM	scripts/00515_numberDisplay.lsasm
+559	script	numberDisplayWithSpinner	18	1473	LS	scripts/00559_numberDisplayWithSpinner.ls
+559	script	numberDisplayWithSpinner	18	1473	LSASM	scripts/00559_numberDisplayWithSpinner.lsasm
+612	script	spinner	19	1474	LS	scripts/00612_spinner.ls
+612	script	spinner	19	1474	LSASM	scripts/00612_spinner.lsasm
+483	script	spinnerbutton	20	1475	LS	scripts/00483_spinnerbutton.ls
+483	script	spinnerbutton	20	1475	LSASM	scripts/00483_spinnerbutton.lsasm
+384	script	valuedisplay	21	1476	LS	scripts/00384_valuedisplay.ls
+384	script	valuedisplay	21	1476	LSASM	scripts/00384_valuedisplay.lsasm
+1424	script		22	1477	LS	scripts/01424_member.ls
+1424	script		22	1477	LSASM	scripts/01424_member.lsasm
+761	script	Mach8GUIManager	23	1478	LS	scripts/00761_Mach8GUIManager.ls
+761	script	Mach8GUIManager	23	1478	LSASM	scripts/00761_Mach8GUIManager.lsasm
+821	script		24	1479	LS	scripts/00821_member.ls
+821	script		24	1479	LSASM	scripts/00821_member.lsasm
+10	script	scroller	25	1480	LS	scripts/00010_scroller.ls
+10	script	scroller	25	1480	LSASM	scripts/00010_scroller.lsasm
+11	script	sliderbackground	26	1481	LS	scripts/00011_sliderbackground.ls
+11	script	sliderbackground	26	1481	LSASM	scripts/00011_sliderbackground.lsasm
+12	script	slider	27	1482	LS	scripts/00012_slider.ls
+12	script	slider	27	1482	LSASM	scripts/00012_slider.lsasm
+13	script	slidersprite	28	1483	LS	scripts/00013_slidersprite.ls
+13	script	slidersprite	28	1483	LSASM	scripts/00013_slidersprite.lsasm
+555	script	draggableSprite	29	1484	LS	scripts/00555_draggableSprite.ls
+555	script	draggableSprite	29	1484	LSASM	scripts/00555_draggableSprite.lsasm
+484	script	followMouseDragSprite	30	1485	LS	scripts/00484_followMouseDragSprite.ls
+484	script	followMouseDragSprite	30	1485	LSASM	scripts/00484_followMouseDragSprite.lsasm
+1446	script	Mach8MouseManager	31	1486	LS	scripts/01446_Mach8MouseManager.ls
+1446	script	Mach8MouseManager	31	1486	LSASM	scripts/01446_Mach8MouseManager.lsasm
+681	script	3dpi_textbutton	32	1487	LS	scripts/00681_3dpi_textbutton.ls
+681	script	3dpi_textbutton	32	1487	LSASM	scripts/00681_3dpi_textbutton.lsasm
+1399	script		33	1488	LS	scripts/01399_member.ls
+1399	script		33	1488	LSASM	scripts/01399_member.lsasm
+715	script		34	1489	LS	scripts/00715_member.ls
+715	script		34	1489	LSASM	scripts/00715_member.lsasm
+1028	script		35	1490	LS	scripts/01028_member.ls
+1028	script		35	1490	LSASM	scripts/01028_member.lsasm
+1285	script		36	1491	LS	scripts/01285_member.ls
+1285	script		36	1491	LSASM	scripts/01285_member.lsasm
+1442	script	directSprite	37	1492	LS	scripts/01442_directSprite.ls
+1442	script	directSprite	37	1492	LSASM	scripts/01442_directSprite.lsasm
+14	bitmap	win_scrollbutton_down	0			bitmaps/00014_win_scrollbutton_down.png
+14	bitmap	win_scrollbutton_down	0	1525	BITD	raw_chunks/00014_win_scrollbutton_down_1525_BITD.bin
+15	bitmap	win_scrollbutton_down_ro	0			bitmaps/00015_win_scrollbutton_down_ro.png
+15	bitmap	win_scrollbutton_down_ro	0	1528	BITD	raw_chunks/00015_win_scrollbutton_down_ro_1528_BITD.bin
+16	bitmap	win_scrollbutton_down_pr	0			bitmaps/00016_win_scrollbutton_down_pr.png
+16	bitmap	win_scrollbutton_down_pr	0	1530	BITD	raw_chunks/00016_win_scrollbutton_down_pr_1530_BITD.bin
+17	bitmap	win_scrollbutton_down_di	0			bitmaps/00017_win_scrollbutton_down_di.png
+17	bitmap	win_scrollbutton_down_di	0	1532	BITD	raw_chunks/00017_win_scrollbutton_down_di_1532_BITD.bin
+18	bitmap	win_slider_Top_vert	0			bitmaps/00018_win_slider_Top_vert.png
+18	bitmap	win_slider_Top_vert	0	1534	BITD	raw_chunks/00018_win_slider_Top_vert_1534_BITD.bin
+19	bitmap	win_slider_Base_vert	0			bitmaps/00019_win_slider_Base_vert.png
+19	bitmap	win_slider_Base_vert	0	1536	BITD	raw_chunks/00019_win_slider_Base_vert_1536_BITD.bin
+20	bitmap	win_slider_bottom_vert	0			bitmaps/00020_win_slider_bottom_vert.png
+20	bitmap	win_slider_bottom_vert	0	1538	BITD	raw_chunks/00020_win_slider_bottom_vert_1538_BITD.bin
+21	bitmap	win_slider_background_vert	0			bitmaps/00021_win_slider_background_vert.png
+21	bitmap	win_slider_background_vert	0	1540	BITD	raw_chunks/00021_win_slider_background_vert_1540_BITD.bin
+22	bitmap	win_slider_Top_hor	0			bitmaps/00022_win_slider_Top_hor.png
+22	bitmap	win_slider_Top_hor	0	1550	BITD	raw_chunks/00022_win_slider_Top_hor_1550_BITD.bin
+27	bitmap	win_scrollbutton_right_ro	0			bitmaps/00027_win_scrollbutton_right_ro.png
+27	bitmap	win_scrollbutton_right_ro	0	1571	BITD	raw_chunks/00027_win_scrollbutton_right_ro_1571_BITD.bin
+31	bitmap	win_scrollbutton_up	0			bitmaps/00031_win_scrollbutton_up.png
+31	bitmap	win_scrollbutton_up	0	1542	BITD	raw_chunks/00031_win_scrollbutton_up_1542_BITD.bin
+45	bitmap	win_scrollbutton_up_ro	0			bitmaps/00045_win_scrollbutton_up_ro.png
+45	bitmap	win_scrollbutton_up_ro	0	1544	BITD	raw_chunks/00045_win_scrollbutton_up_ro_1544_BITD.bin
+46	bitmap	win_scrollbutton_up_pr	0			bitmaps/00046_win_scrollbutton_up_pr.png
+46	bitmap	win_scrollbutton_up_pr	0	1546	BITD	raw_chunks/00046_win_scrollbutton_up_pr_1546_BITD.bin
+47	bitmap	win_scrollbutton_up_di	0			bitmaps/00047_win_scrollbutton_up_di.png
+47	bitmap	win_scrollbutton_up_di	0	1548	BITD	raw_chunks/00047_win_scrollbutton_up_di_1548_BITD.bin
+48	bitmap	win_slider_Base_hor	0			bitmaps/00048_win_slider_Base_hor.png
+48	bitmap	win_slider_Base_hor	0	1552	BITD	raw_chunks/00048_win_slider_Base_hor_1552_BITD.bin
+49	bitmap	win_slider_Bottom_hor	0			bitmaps/00049_win_slider_Bottom_hor.png
+49	bitmap	win_slider_Bottom_hor	0	1554	BITD	raw_chunks/00049_win_slider_Bottom_hor_1554_BITD.bin
+50	bitmap	win_scrollbutton_left	0			bitmaps/00050_win_scrollbutton_left.png
+50	bitmap	win_scrollbutton_left	0	1558	BITD	raw_chunks/00050_win_scrollbutton_left_1558_BITD.bin
+51	bitmap	win_scrollbutton_left_ro	0			bitmaps/00051_win_scrollbutton_left_ro.png
+51	bitmap	win_scrollbutton_left_ro	0	1560	BITD	raw_chunks/00051_win_scrollbutton_left_ro_1560_BITD.bin
+52	bitmap	win_scrollbutton_left_pr	0			bitmaps/00052_win_scrollbutton_left_pr.png
+52	bitmap	win_scrollbutton_left_pr	0	1562	BITD	raw_chunks/00052_win_scrollbutton_left_pr_1562_BITD.bin
+53	bitmap	win_scrollbutton_left_di	0			bitmaps/00053_win_scrollbutton_left_di.png
+53	bitmap	win_scrollbutton_left_di	0	1564	BITD	raw_chunks/00053_win_scrollbutton_left_di_1564_BITD.bin
+54	bitmap	win_scrollbutton_right	0			bitmaps/00054_win_scrollbutton_right.png
+54	bitmap	win_scrollbutton_right	0	1569	BITD	raw_chunks/00054_win_scrollbutton_right_1569_BITD.bin
+91	bitmap	win_scrollbutton_right_pr	0			bitmaps/00091_win_scrollbutton_right_pr.png
+91	bitmap	win_scrollbutton_right_pr	0	1573	BITD	raw_chunks/00091_win_scrollbutton_right_pr_1573_BITD.bin
+92	bitmap	win_scrollbutton_right_di	0			bitmaps/00092_win_scrollbutton_right_di.png
+92	bitmap	win_scrollbutton_right_di	0	1575	BITD	raw_chunks/00092_win_scrollbutton_right_di_1575_BITD.bin
+427	bitmap	win_slider_background_hor	0			bitmaps/00427_win_slider_background_hor.png
+427	bitmap	win_slider_background_hor	0	1556	BITD	raw_chunks/00427_win_slider_background_hor_1556_BITD.bin
+458	bitmap	max_spinner_button_up_normal	0			bitmaps/00458_max_spinner_button_up_normal.png
+458	bitmap	max_spinner_button_up_normal	0	1587	BITD	raw_chunks/00458_max_spinner_button_up_normal_1587_BITD.bin
+469	bitmap	max_spinner_button_down_normal	0			bitmaps/00469_max_spinner_button_down_normal.png
+469	bitmap	max_spinner_button_down_normal	0	1591	BITD	raw_chunks/00469_max_spinner_button_down_normal_1591_BITD.bin
+494	bitmap	max_spinner_button_down_pressed	0			bitmaps/00494_max_spinner_button_down_pressed.png
+494	bitmap	max_spinner_button_down_pressed	0	1593	BITD	raw_chunks/00494_max_spinner_button_down_pressed_1593_BITD.bin
+536	bitmap	max_spinner_button_up_pressed	0			bitmaps/00536_max_spinner_button_up_pressed.png
+536	bitmap	max_spinner_button_up_pressed	0	1589	BITD	raw_chunks/00536_max_spinner_button_up_pressed_1589_BITD.bin
+1320	text	valueDisplayTemplate	0	1583	STXT	text/01320_valueDisplayTemplate_stxt_0.txt
+1320	text	valueDisplayTemplate	0	1583	STXT	raw_chunks/01320_valueDisplayTemplate_1583_STXT.bin
+1321	xtra	3dpi_textButtonTextGenerator	0		XMED	text/01321_3dpi_textButtonTextGenerator_xmed.txt
+1321	xtra	3dpi_textButtonTextGenerator	0	1581	XMED	raw_chunks/01321_3dpi_textButtonTextGenerator_1581_XMED.bin
+1439	text	valueDisplayCaption	0	1585	STXT	text/01439_valueDisplayCaption_stxt_0.txt
+1439	text	valueDisplayCaption	0	1585	STXT	raw_chunks/01439_valueDisplayCaption_1585_STXT.bin

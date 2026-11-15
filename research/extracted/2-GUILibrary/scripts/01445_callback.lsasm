@@ -1,0 +1,69 @@
+-- Parent Script
+on new
+  [0000] getParam         1
+  [0002] setProp          379
+  [0005] getParam         2
+  [0007] setProp          380
+  [0010] getParam         3
+  [0012] setProp          381
+  [0015] getParam         4
+  [0017] setProp          382
+  [0020] getParam         5
+  [0022] setProp          383
+  [0025] getParam         6
+  [0027] setProp          384
+  [0030] getParam         7
+  [0032] setProp          385
+  [0035] getParam         0
+  [0037] pushArgListNoRet 1
+  [0039] extCall          87
+  [0041] ret             
+end
+
+on execute
+  [0000] getProp          381
+  [0003] pushArgList      1
+  [0005] extCall          90
+  [0007] jmpIfZ           26
+  [0010] getProp          379
+  [0013] getProp          380
+  [0016] getParam         1
+  [0018] getParam         2
+  [0020] getParam         3
+  [0022] getParam         4
+  [0024] getParam         5
+  [0026] pushArgListNoRet 7
+  [0028] extCall          83
+  [0030] jmp              28
+  [0033] getProp          379
+  [0036] getProp          380
+  [0039] getProp          381
+  [0042] getProp          382
+  [0045] getProp          383
+  [0048] getProp          384
+  [0051] getProp          385
+  [0054] pushArgListNoRet 7
+  [0056] extCall          83
+  [0058] ret             
+end
+
+on destroy
+  [0000] pushZero        
+  [0001] setProp          379
+  [0004] pushZero        
+  [0005] setProp          380
+  [0008] pushZero        
+  [0009] setProp          381
+  [0012] pushZero        
+  [0013] setProp          382
+  [0016] pushZero        
+  [0017] setProp          383
+  [0020] pushZero        
+  [0021] setProp          384
+  [0024] pushZero        
+  [0025] setProp          385
+  [0028] pushZero        
+  [0029] pushArgListNoRet 1
+  [0031] extCall          87
+  [0033] ret             
+end

@@ -1,0 +1,139 @@
+-- Parent Script
+on new
+  [0000] pushZero        
+  [0001] setProp          23
+  [0003] getMovieProp     41
+  [0005] getParam         0
+  [0007] pushArgListNoRet 2
+  [0009] objCall          40
+  [0011] getParam         0
+  [0013] pushArgListNoRet 1
+  [0015] extCall          69
+  [0017] ret             
+end
+
+on setText
+  [0000] getProp          23
+  [0002] jmpIfZ           7
+  [0005] pushArgListNoRet 0
+  [0007] extCall          69
+  [0009] pushCons         0
+  [0011] pushArgList      1
+  [0013] extCall          13
+  [0015] getParam         1
+  [0017] setObjProp       351
+  [0020] pushCons         0
+  [0022] pushArgList      1
+  [0024] extCall          13
+  [0026] pushSymb         631
+  [0029] pushInt8         1
+  [0031] pushArgList      3
+  [0033] objCall          176
+  [0035] pushInt8         24
+  [0037] setObjProp       361
+  [0040] pushCons         0
+  [0042] pushArgList      1
+  [0044] extCall          13
+  [0046] pushSymb         631
+  [0049] pushInt8         2
+  [0051] pushArgList      3
+  [0053] objCall          176
+  [0055] pushInt8         18
+  [0057] setObjProp       361
+  [0060] pushCons         0
+  [0062] pushArgList      1
+  [0064] extCall          13
+  [0066] pushSymb         631
+  [0069] pushInt8         3
+  [0071] pushArgList      3
+  [0073] objCall          176
+  [0075] pushInt8         12
+  [0077] setObjProp       361
+  [0080] pushCons         0
+  [0082] pushArgList      1
+  [0084] extCall          13
+  [0086] pushZero        
+  [0087] setObjProp       362
+  [0090] pushCons         0
+  [0092] pushArgList      1
+  [0094] extCall          13
+  [0096] pushSymb         358
+  [0099] pushSymb         359
+  [0102] pushArgList      2
+  [0104] pushList        
+  [0105] setObjProp       360
+  [0108] pushCons         0
+  [0110] pushArgList      1
+  [0112] extCall          13
+  [0114] pushInt16        255
+  [0117] pushInt16        255
+  [0120] pushInt16        255
+  [0123] pushArgList      3
+  [0125] extCall          60
+  [0127] setObjProp       363
+  [0130] getProp          726
+  [0133] pushArgList      1
+  [0135] extCall          117
+  [0137] jmpIfZ           10
+  [0140] getProp          726
+  [0143] pushArgListNoRet 1
+  [0145] objCall          11
+  [0147] pushCons         1
+  [0149] pushArgList      1
+  [0151] extCall          39
+  [0153] pushArgList      1
+  [0155] objCall          0
+  [0157] setProp          726
+  [0160] getProp          726
+  [0163] pushArgListNoRet 1
+  [0165] objCall          357
+  [0168] getProp          726
+  [0171] pushInt16        320
+  [0174] pushInt16        400
+  [0177] pushArgList      2
+  [0179] extCall          284
+  [0182] pushArgListNoRet 2
+  [0184] objCall          356
+  [0187] getMovieProp     150
+  [0189] setProp          727
+  [0192] ret             
+end
+
+on stop
+  [0000] pushInt8         1
+  [0002] setProp          23
+  [0004] ret             
+end
+
+on stepFrame
+  [0000] getProp          726
+  [0003] pushArgList      1
+  [0005] extCall          117
+  [0007] jmpIfZ           27
+  [0010] getMovieProp     150
+  [0012] getProp          727
+  [0015] pushInt16        5000
+  [0018] add             
+  [0019] gt              
+  [0020] jmpIfZ           14
+  [0023] getProp          726
+  [0026] pushArgList      1
+  [0028] objCall          546
+  [0031] setProp          726
+  [0034] ret             
+end
+
+on destroy
+  [0000] getProp          726
+  [0003] pushArgList      1
+  [0005] extCall          117
+  [0007] jmpIfZ           10
+  [0010] getProp          726
+  [0013] pushArgListNoRet 1
+  [0015] objCall          11
+  [0017] getMovieProp     41
+  [0019] getParam         0
+  [0021] pushArgListNoRet 2
+  [0023] objCall          118
+  [0025] ret             
+end

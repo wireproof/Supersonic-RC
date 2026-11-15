@@ -1,0 +1,41 @@
+-- Parent Script
+on new
+  [0000] pushCons         0
+  [0002] pushArgList      1
+  [0004] extCall          112
+  [0006] pushArgList      1
+  [0008] objCall          272
+  [0011] setProp          271
+  [0014] pushSymb         0
+  [0016] getParam         0
+  [0018] getParam         1
+  [0020] pushArgListNoRet 3
+  [0022] extCall          273
+  [0025] getParam         0
+  [0027] pushArgListNoRet 1
+  [0029] extCall          87
+  [0031] ret             
+end
+
+on mouseDown
+  [0000] getParam         0
+  [0002] getObjProp       340
+  [0005] pushZero        
+  [0006] eq              
+  [0007] jmpIfZ           12
+  [0010] pushSymb         220
+  [0012] getParam         0
+  [0014] pushArgListNoRet 2
+  [0016] extCall          273
+  [0019] ret             
+end
+
+on destroy
+  [0000] pushSymb         4
+  [0002] getParam         0
+  [0004] pushArgListNoRet 2
+  [0006] extCall          273
+  [0009] pushZero        
+  [0010] setProp          271
+  [0013] ret             
+end

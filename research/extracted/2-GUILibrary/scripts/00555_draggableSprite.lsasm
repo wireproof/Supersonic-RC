@@ -1,0 +1,127 @@
+-- Parent Script
+on new
+  [0000] getParam         1
+  [0002] pushSymb         621
+  [0005] pushArgList      2
+  [0007] objCall          95
+  [0009] setProp          620
+  [0012] pushCons         0
+  [0014] pushArgList      1
+  [0016] extCall          112
+  [0018] pushArgList      1
+  [0020] objCall          272
+  [0023] setProp          271
+  [0026] pushSymb         0
+  [0028] getParam         0
+  [0030] getParam         1
+  [0032] pushArgListNoRet 3
+  [0034] extCall          273
+  [0037] getParam         0
+  [0039] pushInt8         1
+  [0041] pushArgListNoRet 2
+  [0043] objCall          75
+  [0045] pushInt8         10
+  [0047] setProp          622
+  [0050] getParam         0
+  [0052] pushArgListNoRet 1
+  [0054] extCall          87
+  [0056] ret             
+end
+
+on setDragObject
+  [0000] getParam         1
+  [0002] setProp          620
+  [0005] ret             
+end
+
+on mouseDown
+  [0000] pushInt8         1
+  [0002] setProp          295
+  [0005] getMovieProp     604
+  [0008] setProp          624
+  [0011] ret             
+end
+
+on exitFrame
+  [0000] getProp          620
+  [0003] pushArgList      0
+  [0005] extCall          99
+  [0007] eq              
+  [0008] jmpIfZ           7
+  [0011] pushArgListNoRet 0
+  [0013] extCall          87
+  [0015] getProp          295
+  [0018] jmpIfZ           77
+  [0021] pushArgList      0
+  [0023] theBuiltin       584
+  [0026] pushArgList      0
+  [0028] theBuiltin       452
+  [0031] pushZero        
+  [0032] pushArgList      3
+  [0034] extCall          625
+  [0037] getProp          624
+  [0040] pushInt8         1
+  [0042] pushArgList      2
+  [0044] objCall          95
+  [0046] getProp          624
+  [0049] pushInt8         2
+  [0051] pushArgList      2
+  [0053] objCall          95
+  [0055] pushZero        
+  [0056] pushArgList      3
+  [0058] extCall          625
+  [0061] pushArgList      2
+  [0063] objCall          626
+  [0066] getProp          622
+  [0069] gt              
+  [0070] jmpIfZ           25
+  [0073] getGlobal        81
+  [0075] pushArgList      1
+  [0077] objCall          207
+  [0079] pushZero        
+  [0080] eq              
+  [0081] jmpIfZ           14
+  [0084] getParam         0
+  [0086] pushArgListNoRet 1
+  [0088] objCall          504
+  [0091] pushZero        
+  [0092] setProp          295
+  [0095] ret             
+end
+
+on mouseUp
+  [0000] pushZero        
+  [0001] setProp          295
+  [0004] ret             
+end
+
+on mouseUpOutSide
+  [0000] pushZero        
+  [0001] setProp          295
+  [0004] ret             
+end
+
+on StartDrag
+  [0000] pushArgList      0
+  [0002] pushPropList    
+  [0003] setLocal         0
+  [0005] getLocal         0
+  [0007] pushSymb         94
+  [0009] getParam         0
+  [0011] pushArgListNoRet 3
+  [0013] objCall          125
+  [0015] getLocal         0
+  [0017] pushSymb         621
+  [0020] getProp          620
+  [0023] pushArgListNoRet 3
+  [0025] objCall          125
+  [0027] pushCons         1
+  [0029] pushArgList      1
+  [0031] extCall          112
+  [0033] getLocal         0
+  [0035] pushArgList      2
+  [0037] objCall          0
+  [0039] pushArgListNoRet 1
+  [0041] extCall          87
+  [0043] ret             
+end

@@ -1,0 +1,96 @@
+-- Parent Script
+on new
+  [0000] pushCons         0
+  [0002] pushArgList      1
+  [0004] extCall          39
+  [0006] pushArgList      1
+  [0008] objCall          0
+  [0010] setProp          274
+  [0013] pushCons         1
+  [0015] pushArgList      1
+  [0017] extCall          39
+  [0019] pushArgList      1
+  [0021] objCall          0
+  [0023] setProp          275
+  [0026] pushCons         2
+  [0028] pushArgList      1
+  [0030] extCall          39
+  [0032] pushArgList      1
+  [0034] objCall          0
+  [0036] setProp          276
+  [0039] pushCons         3
+  [0041] pushArgList      1
+  [0043] extCall          39
+  [0045] pushArgList      1
+  [0047] objCall          0
+  [0049] setProp          277
+  [0052] pushCons         4
+  [0054] pushArgList      1
+  [0056] extCall          39
+  [0058] pushSymb         138
+  [0060] pushCons         5
+  [0062] pushArgList      1
+  [0064] pushList        
+  [0065] pushSymb         127
+  [0067] pushCons         6
+  [0069] pushArgList      4
+  [0071] pushPropList    
+  [0072] pushArgListNoRet 2
+  [0074] objCall          0
+  [0076] pushArgList      0
+  [0078] extCall          123
+  [0080] jmpIfZ           14
+  [0083] getProp          274
+  [0086] pushArgList      1
+  [0088] objCall          131
+  [0090] pushArgListNoRet 1
+  [0092] extCall          69
+  [0094] getProp          276
+  [0097] pushArgListNoRet 1
+  [0099] objCall          131
+  [0101] getParam         0
+  [0103] pushArgListNoRet 1
+  [0105] extCall          69
+  [0107] ret             
+end
+
+on getSelectLevelManager
+  [0000] getProp          274
+  [0003] pushArgListNoRet 1
+  [0005] extCall          69
+  [0007] ret             
+end
+
+on getDrivingManager
+  [0000] getProp          275
+  [0003] pushArgListNoRet 1
+  [0005] extCall          69
+  [0007] ret             
+end
+
+on getHelpManager
+  [0000] getProp          277
+  [0003] pushArgListNoRet 1
+  [0005] extCall          69
+  [0007] ret             
+end
+
+on destroy
+  [0000] getProp          274
+  [0003] pushArgList      1
+  [0005] extCall          117
+  [0007] jmpIfZ           13
+  [0010] getProp          274
+  [0013] pushArgList      1
+  [0015] objCall          11
+  [0017] setProp          274
+  [0020] getProp          275
+  [0023] pushArgList      1
+  [0025] extCall          117
+  [0027] jmpIfZ           13
+  [0030] getProp          275
+  [0033] pushArgList      1
+  [0035] objCall          11
+  [0037] setProp          275
+  [0040] ret             
+end

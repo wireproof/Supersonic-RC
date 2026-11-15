@@ -1,0 +1,54 @@
+-- Parent Script
+on new
+  [0000] pushSymb         348
+  [0003] pushSymb         388
+  [0006] pushSymb         276
+  [0009] pushCons         0
+  [0011] pushArgList      4
+  [0013] pushPropList    
+  [0014] pushSymb         348
+  [0017] pushSymb         389
+  [0020] pushSymb         276
+  [0023] pushCons         1
+  [0025] pushArgList      4
+  [0027] pushPropList    
+  [0028] pushArgList      2
+  [0030] pushList        
+  [0031] setParam         1
+  [0033] pushArgList      0
+  [0035] pushPropList    
+  [0036] setParam         2
+  [0038] getParam         2
+  [0040] pushSymb         277
+  [0043] getParam         2
+  [0045] pushArgList      1
+  [0047] extCall          390
+  [0050] pushArgListNoRet 3
+  [0052] objCall          125
+  [0054] pushCons         2
+  [0056] pushArgList      1
+  [0058] extCall          112
+  [0060] pushArgList      1
+  [0062] objCall          272
+  [0065] setProp          271
+  [0068] pushSymb         0
+  [0070] getParam         0
+  [0072] getParam         1
+  [0074] getParam         2
+  [0076] pushArgListNoRet 4
+  [0078] extCall          273
+  [0081] getParam         0
+  [0083] pushArgListNoRet 1
+  [0085] extCall          87
+  [0087] ret             
+end
+
+on destroy
+  [0000] pushSymb         4
+  [0002] getParam         0
+  [0004] pushArgListNoRet 2
+  [0006] extCall          273
+  [0009] pushZero        
+  [0010] setProp          271
+  [0013] ret             
+end

@@ -1,0 +1,8 @@
+-- Score Script
+on exitFrame
+  [0000] pushArgList      0
+  [0002] theBuiltin       710
+  [0005] pushArgListNoRet 1
+  [0007] extCall          711
+  [0010] ret             
+end

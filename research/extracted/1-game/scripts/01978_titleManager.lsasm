@@ -1,0 +1,61 @@
+-- Parent Script
+on new
+  [0000] pushCons         0
+  [0002] pushArgList      1
+  [0004] extCall          39
+  [0006] pushSymb         138
+  [0008] pushCons         1
+  [0010] pushArgList      1
+  [0012] pushList        
+  [0013] pushSymb         127
+  [0015] pushCons         2
+  [0017] pushArgList      4
+  [0019] pushPropList    
+  [0020] pushArgList      2
+  [0022] objCall          0
+  [0024] setProp          311
+  [0027] getProp          311
+  [0030] pushCons         3
+  [0032] pushArgList      1
+  [0034] extCall          39
+  [0036] pushSymb         434
+  [0039] getParam         0
+  [0041] pushArgList      3
+  [0043] objCall          0
+  [0045] pushArgListNoRet 2
+  [0047] objCall          307
+  [0050] getParam         0
+  [0052] pushArgListNoRet 1
+  [0054] extCall          69
+  [0056] ret             
+end
+
+on bgClicked
+  [0000] pushCons         4
+  [0002] pushArgList      1
+  [0004] extCall          39
+  [0006] pushCons         3
+  [0008] pushArgList      1
+  [0010] extCall          39
+  [0012] pushSymb         131
+  [0014] getGlobal        113
+  [0016] pushArgList      1
+  [0018] objCall          272
+  [0021] pushArgList      3
+  [0023] objCall          0
+  [0025] pushArgListNoRet 2
+  [0027] objCall          0
+  [0029] ret             
+end
+
+on start
+  [0000] pushCons         5
+  [0002] pushArgList      1
+  [0004] extCall          39
+  [0006] pushArgListNoRet 1
+  [0008] objCall          0
+  [0010] pushCons         1
+  [0012] pushArgListNoRet 1
+  [0014] extCall          312
+  [0017] ret             
+end

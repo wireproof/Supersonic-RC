@@ -1,0 +1,37 @@
+-- Score Script
+on findSpriteByName
+  [0000] getParam         1
+  [0002] getProp          82
+  [0004] eq              
+  [0005] jmpIfZ           17
+  [0008] getParam         2
+  [0010] getParam         0
+  [0012] getObjProp       108
+  [0014] pushArgList      1
+  [0016] extCall          231
+  [0018] pushArgListNoRet 2
+  [0020] objCall          232
+  [0022] ret             
+end
+
+on getPropertyDescriptionList
+  [0000] pushArgList      0
+  [0002] pushPropList    
+  [0003] setLocal         0
+  [0005] getLocal         0
+  [0007] pushSymb         82
+  [0009] pushSymb         234
+  [0011] pushCons         0
+  [0013] pushSymb         235
+  [0015] pushCons         1
+  [0017] pushSymb         236
+  [0019] pushSymb         101
+  [0021] pushArgList      6
+  [0023] pushPropList    
+  [0024] pushArgListNoRet 3
+  [0026] objCall          237
+  [0028] getLocal         0
+  [0030] pushArgListNoRet 1
+  [0032] extCall          87
+  [0034] ret             
+end

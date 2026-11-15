@@ -1,0 +1,264 @@
+member_id	member_type	member_name	script_id	chunk_id	fourcc	asset_path
+8	script		2	4797	LS	scripts/00008_member.ls
+8	script		2	4797	LSASM	scripts/00008_member.lsasm
+7	script	drivingManager	3	4798	LS	scripts/00007_drivingManager.ls
+7	script	drivingManager	3	4798	LSASM	scripts/00007_drivingManager.lsasm
+118	script	havokManager	4	4799	LS	scripts/00118_havokManager.ls
+118	script	havokManager	4	4799	LSASM	scripts/00118_havokManager.lsasm
+207	script	mainManager	6	4800	LS	scripts/00207_mainManager.ls
+207	script	mainManager	6	4800	LSASM	scripts/00207_mainManager.lsasm
+4111	script	pickupManager	12	4801	LS	scripts/04111_pickupManager.ls
+4111	script	pickupManager	12	4801	LSASM	scripts/04111_pickupManager.lsasm
+1148	script	timer	13	4802	LS	scripts/01148_timer.ls
+1148	script	timer	13	4802	LSASM	scripts/01148_timer.lsasm
+1151	script	insceneoverlay	14	4803	LS	scripts/01151_insceneoverlay.ls
+1151	script	insceneoverlay	14	4803	LSASM	scripts/01151_insceneoverlay.lsasm
+1978	script	titleManager	15	4804	LS	scripts/01978_titleManager.ls
+1978	script	titleManager	15	4804	LSASM	scripts/01978_titleManager.lsasm
+1980	script	fadein	16	4805	LS	scripts/01980_fadein.ls
+1980	script	fadein	16	4805	LSASM	scripts/01980_fadein.lsasm
+2042	script	fadeout	17	4806	LS	scripts/02042_fadeout.ls
+2042	script	fadeout	17	4806	LSASM	scripts/02042_fadeout.lsasm
+175	script	camera_fromadistance	18	4807	LS	scripts/00175_camera_fromadistance.ls
+175	script	camera_fromadistance	18	4807	LSASM	scripts/00175_camera_fromadistance.lsasm
+2122	script	helpManager	19	4808	LS	scripts/02122_helpManager.ls
+2122	script	helpManager	19	4808	LSASM	scripts/02122_helpManager.lsasm
+2966	script	carsound	21	4809	LS	scripts/02966_carsound.ls
+2966	script	carsound	21	4809	LSASM	scripts/02966_carsound.lsasm
+3579	script	UV_Lightmap_UVs	23	4810	LS	scripts/03579_UV_Lightmap_UVs.ls
+3579	script	UV_Lightmap_UVs	23	4810	LSASM	scripts/03579_UV_Lightmap_UVs.lsasm
+3389	script	3d_textsprite	24	4811	LS	scripts/03389_3d_textsprite.ls
+3389	script	3d_textsprite	24	4811	LSASM	scripts/03389_3d_textsprite.lsasm
+3283	script	timeout	25	4812	LS	scripts/03283_timeout.ls
+3283	script	timeout	25	4812	LSASM	scripts/03283_timeout.lsasm
+215	script	lingoRayCaster	26	4813	LS	scripts/00215_lingoRayCaster.ls
+215	script	lingoRayCaster	26	4813	LSASM	scripts/00215_lingoRayCaster.lsasm
+3342	script	chasetimer	29	4814	LS	scripts/03342_chasetimer.ls
+3342	script	chasetimer	29	4814	LSASM	scripts/03342_chasetimer.lsasm
+3191	script	stuntdetector	30	4815	LS	scripts/03191_stuntdetector.ls
+3191	script	stuntdetector	30	4815	LSASM	scripts/03191_stuntdetector.lsasm
+210	script		31	4816	LS	scripts/00210_member.ls
+210	script		31	4816	LSASM	scripts/00210_member.lsasm
+3852	script		32	4817	LS	scripts/03852_member.ls
+3852	script		32	4817	LSASM	scripts/03852_member.lsasm
+63	script		33	4818	LS	scripts/00063_member.ls
+63	script		33	4818	LSASM	scripts/00063_member.lsasm
+2768	script	arrow	35	4819	LS	scripts/02768_arrow.ls
+2768	script	arrow	35	4819	LSASM	scripts/02768_arrow.lsasm
+165	script	FPS Counter	42	4820	LS	scripts/00165_FPS_Counter.ls
+165	script	FPS Counter	42	4820	LSASM	scripts/00165_FPS_Counter.lsasm
+6	script	car	45	4821	LS	scripts/00006_car.ls
+6	script	car	45	4821	LSASM	scripts/00006_car.lsasm
+2977	script	pointscounter	46	4822	LS	scripts/02977_pointscounter.ls
+2977	script	pointscounter	46	4822	LSASM	scripts/02977_pointscounter.lsasm
+2511	script	gameTypeManager	49	4823	LS	scripts/02511_gameTypeManager.ls
+2511	script	gameTypeManager	49	4823	LSASM	scripts/02511_gameTypeManager.lsasm
+52	script	camera	52	4824	LS	scripts/00052_camera.ls
+52	script	camera	52	4824	LSASM	scripts/00052_camera.lsasm
+3048	script	supersonic_challenge	53	4825	LS	scripts/03048_supersonic_challenge.ls
+3048	script	supersonic_challenge	53	4825	LSASM	scripts/03048_supersonic_challenge.lsasm
+54	script	wheel	55	4826	LS	scripts/00054_wheel.ls
+54	script	wheel	55	4826	LSASM	scripts/00054_wheel.lsasm
+3969	script	scavenger_hunt	59	4827	LS	scripts/03969_scavenger_hunt.ls
+3969	script	scavenger_hunt	59	4827	LSASM	scripts/03969_scavenger_hunt.lsasm
+4011	script	textmessagemanager	60	4828	LS	scripts/04011_textmessagemanager.ls
+4011	script	textmessagemanager	60	4828	LSASM	scripts/04011_textmessagemanager.lsasm
+208	script	stunt_rally	61	4829	LS	scripts/00208_stunt_rally.ls
+208	script	stunt_rally	61	4829	LSASM	scripts/00208_stunt_rally.lsasm
+197	script	checkpoint_chase	62	4830	LS	scripts/00197_checkpoint_chase.ls
+197	script	checkpoint_chase	62	4830	LSASM	scripts/00197_checkpoint_chase.lsasm
+226	script	selectLevelManager	63	4831	LS	scripts/00226_selectLevelManager.ls
+226	script	selectLevelManager	63	4831	LSASM	scripts/00226_selectLevelManager.lsasm
+152	script	free_driving	64	4832	LS	scripts/00152_free_driving.ls
+152	script	free_driving	64	4832	LSASM	scripts/00152_free_driving.lsasm
+3829	script	lightMapManager	65	4833	LS	scripts/03829_lightMapManager.ls
+3829	script	lightMapManager	65	4833	LSASM	scripts/03829_lightMapManager.lsasm
+2488	script	checkpoint_gametype	66	4834	LS	scripts/02488_checkpoint_gametype.ls
+2488	script	checkpoint_gametype	66	4834	LSASM	scripts/02488_checkpoint_gametype.lsasm
+4161	script	pointsgoalcounter	67	4835	LS	scripts/04161_pointsgoalcounter.ls
+4161	script	pointsgoalcounter	67	4835	LSASM	scripts/04161_pointsgoalcounter.lsasm
+4214	script		1	4962	LS	scripts/04214_member.ls
+4214	script		1	4962	LSASM	scripts/04214_member.lsasm
+8	script		2	4963	LS	scripts/00008_member.ls
+8	script		2	4963	LSASM	scripts/00008_member.lsasm
+62	bitmap		0			bitmaps/00062_member.png
+62	bitmap		0	4888	BITD	raw_chunks/00062_member_4888_BITD.bin
+194	text	fps	0	4884	STXT	text/00194_fps_stxt_0.txt
+194	text	fps	0	4884	STXT	raw_chunks/00194_fps_4884_STXT.bin
+1160	xtra	timerfontgenerator	0		XMED	text/01160_timerfontgenerator_xmed.txt
+1160	xtra	timerfontgenerator	0	4886	XMED	raw_chunks/01160_timerfontgenerator_4886_XMED.bin
+2261	xtra	star	0	4892	XMED	raw_chunks/02261_star_4892_XMED.bin
+2373	xtra		0		XMED	text/02373_member_xmed.txt
+2373	xtra		0	4968	XMED	raw_chunks/02373_member_4968_XMED.bin
+2758	sound	CarEnd	0	4928	snd 	sounds/02758_CarEnd_4928.mp3
+2758	sound	CarEnd	0	4928	snd 	raw_chunks/02758_CarEnd_4928_snd_.bin
+2775	sound	Crash2	0	5052	snd 	sounds/02775_Crash2_5052.mp3
+2775	sound	Crash2	0	5052	snd 	raw_chunks/02775_Crash2_5052_snd_.bin
+2777	sound	Crash1	0	5046	snd 	sounds/02777_Crash1_5046.mp3
+2777	sound	Crash1	0	5046	snd 	raw_chunks/02777_Crash1_5046_snd_.bin
+2841	sound	CarTurnLeft02	0	4898	snd 	sounds/02841_CarTurnLeft02_4898.mp3
+2841	sound	CarTurnLeft02	0	4898	snd 	raw_chunks/02841_CarTurnLeft02_4898_snd_.bin
+2908	sound	StingWin	0	5094	snd 	sounds/02908_StingWin_5094.mp3
+2908	sound	StingWin	0	5094	snd 	raw_chunks/02908_StingWin_5094_snd_.bin
+2924	sound	StingCheckpoint	0	5076	snd 	sounds/02924_StingCheckpoint_5076.mp3
+2924	sound	StingCheckpoint	0	5076	snd 	raw_chunks/02924_StingCheckpoint_5076_snd_.bin
+2950	sound	Crash2_glass	0	5064	snd 	sounds/02950_Crash2_glass_5064.mp3
+2950	sound	Crash2_glass	0	5064	snd 	raw_chunks/02950_Crash2_glass_5064_snd_.bin
+2952	sound	CarTurnRight02	0	4916	snd 	sounds/02952_CarTurnRight02_4916.mp3
+2952	sound	CarTurnRight02	0	4916	snd 	raw_chunks/02952_CarTurnRight02_4916_snd_.bin
+2973	sound	Crash1_glass	0	5058	snd 	sounds/02973_Crash1_glass_5058.mp3
+2973	sound	Crash1_glass	0	5058	snd 	raw_chunks/02973_Crash1_glass_5058_snd_.bin
+2974	sound	CarTurnRight03	0	4922	snd 	sounds/02974_CarTurnRight03_4922.mp3
+2974	sound	CarTurnRight03	0	4922	snd 	raw_chunks/02974_CarTurnRight03_4922_snd_.bin
+3021	sound	CarTurnLeft03	0	4904	snd 	sounds/03021_CarTurnLeft03_4904.mp3
+3021	sound	CarTurnLeft03	0	4904	snd 	raw_chunks/03021_CarTurnLeft03_4904_snd_.bin
+3025	sound	CarTurnRight01	0	4910	snd 	sounds/03025_CarTurnRight01_4910.mp3
+3025	sound	CarTurnRight01	0	4910	snd 	raw_chunks/03025_CarTurnRight01_4910_snd_.bin
+3084	sound	CarLoop	0	4940	snd 	sounds/03084_CarLoop_4940.mp3
+3084	sound	CarLoop	0	4940	snd 	raw_chunks/03084_CarLoop_4940_snd_.bin
+3086	sound	CarTurnLeft01	0	4946	snd 	sounds/03086_CarTurnLeft01_4946.mp3
+3086	sound	CarTurnLeft01	0	4946	snd 	raw_chunks/03086_CarTurnLeft01_4946_snd_.bin
+3113	sound	Crash3_glass	0	5070	snd 	sounds/03113_Crash3_glass_5070.mp3
+3113	sound	Crash3_glass	0	5070	snd 	raw_chunks/03113_Crash3_glass_5070_snd_.bin
+3139	bitmap	Help-v5	0			bitmaps/03139_Help-v5.png
+3139	bitmap	Help-v5	0	5036	ALFA	raw_chunks/03139_Help-v5_5036_ALFA.bin
+3139	bitmap	Help-v5	0	5035	ediM	raw_chunks/03139_Help-v5_5035_ediM.bin
+3229	sound	Alarm	0	5040	snd 	sounds/03229_Alarm_5040.mp3
+3229	sound	Alarm	0	5040	snd 	raw_chunks/03229_Alarm_5040_snd_.bin
+3382	sound	StingLoseLoop	0	5088	snd 	sounds/03382_StingLoseLoop_5088.mp3
+3382	sound	StingLoseLoop	0	5088	snd 	raw_chunks/03382_StingLoseLoop_5088_snd_.bin
+3525	sound	StingHiddenTreasure	0	5082	snd 	sounds/03525_StingHiddenTreasure_5082.mp3
+3525	sound	StingHiddenTreasure	0	5082	snd 	raw_chunks/03525_StingHiddenTreasure_5082_snd_.bin
+3561	xtra	textgenerator	0		XMED	text/03561_textgenerator_xmed.txt
+3561	xtra	textgenerator	0	5033	XMED	raw_chunks/03561_textgenerator_5033_XMED.bin
+3628	bitmap	Title-v8	0			bitmaps/03628_Title-v8.png
+3628	bitmap	Title-v8	0	4966	ALFA	raw_chunks/03628_Title-v8_4966_ALFA.bin
+3628	bitmap	Title-v8	0	4965	ediM	raw_chunks/03628_Title-v8_4965_ediM.bin
+3658	bitmap	ScavengerDown	0			bitmaps/03658_ScavengerDown.png
+3658	bitmap	ScavengerDown	0	5007	ALFA	raw_chunks/03658_ScavengerDown_5007_ALFA.bin
+3658	bitmap	ScavengerDown	0	5006	ediM	raw_chunks/03658_ScavengerDown_5006_ediM.bin
+3659	bitmap	StuntOver	0			bitmaps/03659_StuntOver.png
+3659	bitmap	StuntOver	0	5025	ALFA	raw_chunks/03659_StuntOver_5025_ALFA.bin
+3659	bitmap	StuntOver	0	5024	ediM	raw_chunks/03659_StuntOver_5024_ediM.bin
+3661	bitmap	FreeOver	0			bitmaps/03661_FreeOver.png
+3661	bitmap	FreeOver	0	5019	ALFA	raw_chunks/03661_FreeOver_5019_ALFA.bin
+3661	bitmap	FreeOver	0	5018	ediM	raw_chunks/03661_FreeOver_5018_ediM.bin
+3662	bitmap	FreeDown	0			bitmaps/03662_FreeDown.png
+3662	bitmap	FreeDown	0	5016	ALFA	raw_chunks/03662_FreeDown_5016_ALFA.bin
+3662	bitmap	FreeDown	0	5015	ediM	raw_chunks/03662_FreeDown_5015_ediM.bin
+3664	bitmap	Free	0			bitmaps/03664_Free.png
+3664	bitmap	Free	0	5001	ALFA	raw_chunks/03664_Free_5001_ALFA.bin
+3664	bitmap	Free	0	5000	ediM	raw_chunks/03664_Free_5000_ediM.bin
+3665	bitmap	Checkpoint	0			bitmaps/03665_Checkpoint.png
+3665	bitmap	Checkpoint	0	4998	ALFA	raw_chunks/03665_Checkpoint_4998_ALFA.bin
+3665	bitmap	Checkpoint	0	4997	ediM	raw_chunks/03665_Checkpoint_4997_ediM.bin
+3666	bitmap	Stunt	0			bitmaps/03666_Stunt.png
+3666	bitmap	Stunt	0	4995	ALFA	raw_chunks/03666_Stunt_4995_ALFA.bin
+3666	bitmap	Stunt	0	4994	ediM	raw_chunks/03666_Stunt_4994_ediM.bin
+3668	bitmap	Scavenger	0			bitmaps/03668_Scavenger.png
+3668	bitmap	Scavenger	0	4992	ALFA	raw_chunks/03668_Scavenger_4992_ALFA.bin
+3668	bitmap	Scavenger	0	4991	ediM	raw_chunks/03668_Scavenger_4991_ediM.bin
+3669	bitmap	Supersonic	0			bitmaps/03669_Supersonic.png
+3669	bitmap	Supersonic	0	4989	ALFA	raw_chunks/03669_Supersonic_4989_ALFA.bin
+3669	bitmap	Supersonic	0	4988	ediM	raw_chunks/03669_Supersonic_4988_ediM.bin
+3670	bitmap	CheckpointOver	0			bitmaps/03670_CheckpointOver.png
+3670	bitmap	CheckpointOver	0	5022	ALFA	raw_chunks/03670_CheckpointOver_5022_ALFA.bin
+3670	bitmap	CheckpointOver	0	5021	ediM	raw_chunks/03670_CheckpointOver_5021_ediM.bin
+3671	bitmap	CheckpointGray	0			bitmaps/03671_CheckpointGray.png
+3671	bitmap	CheckpointGray	0	4983	ALFA	raw_chunks/03671_CheckpointGray_4983_ALFA.bin
+3671	bitmap	CheckpointGray	0	4982	ediM	raw_chunks/03671_CheckpointGray_4982_ediM.bin
+3672	bitmap	StuntGray	0			bitmaps/03672_StuntGray.png
+3672	bitmap	StuntGray	0	4980	ALFA	raw_chunks/03672_StuntGray_4980_ALFA.bin
+3672	bitmap	StuntGray	0	4979	ediM	raw_chunks/03672_StuntGray_4979_ediM.bin
+3673	bitmap	ScavengerGray	0			bitmaps/03673_ScavengerGray.png
+3673	bitmap	ScavengerGray	0	4977	ALFA	raw_chunks/03673_ScavengerGray_4977_ALFA.bin
+3673	bitmap	ScavengerGray	0	4976	ediM	raw_chunks/03673_ScavengerGray_4976_ediM.bin
+3675	bitmap	SupersonicGray	0			bitmaps/03675_SupersonicGray.png
+3675	bitmap	SupersonicGray	0	4974	ALFA	raw_chunks/03675_SupersonicGray_4974_ALFA.bin
+3675	bitmap	SupersonicGray	0	4973	ediM	raw_chunks/03675_SupersonicGray_4973_ediM.bin
+3739	bitmap	FreeGray	0			bitmaps/03739_FreeGray.png
+3739	bitmap	FreeGray	0	4986	ALFA	raw_chunks/03739_FreeGray_4986_ALFA.bin
+3739	bitmap	FreeGray	0	4985	ediM	raw_chunks/03739_FreeGray_4985_ediM.bin
+3756	bitmap	ScavengerOver	0			bitmaps/03756_ScavengerOver.png
+3756	bitmap	ScavengerOver	0	5028	ALFA	raw_chunks/03756_ScavengerOver_5028_ALFA.bin
+3756	bitmap	ScavengerOver	0	5027	ediM	raw_chunks/03756_ScavengerOver_5027_ediM.bin
+3833	bitmap	SupersonicDown	0			bitmaps/03833_SupersonicDown.png
+3833	bitmap	SupersonicDown	0	5004	ALFA	raw_chunks/03833_SupersonicDown_5004_ALFA.bin
+3833	bitmap	SupersonicDown	0	5003	ediM	raw_chunks/03833_SupersonicDown_5003_ediM.bin
+3901	sound	CarStart	0	4934	snd 	sounds/03901_CarStart_4934.mp3
+3901	sound	CarStart	0	4934	snd 	raw_chunks/03901_CarStart_4934_snd_.bin
+3966	bitmap	StuntDown	0			bitmaps/03966_StuntDown.png
+3966	bitmap	StuntDown	0	5010	ALFA	raw_chunks/03966_StuntDown_5010_ALFA.bin
+3966	bitmap	StuntDown	0	5009	ediM	raw_chunks/03966_StuntDown_5009_ediM.bin
+3968	xtra	prize	0	4894	XMED	raw_chunks/03968_prize_4894_XMED.bin
+3970	bitmap	CheckpointDown	0			bitmaps/03970_CheckpointDown.png
+3970	bitmap	CheckpointDown	0	5013	ALFA	raw_chunks/03970_CheckpointDown_5013_ALFA.bin
+3970	bitmap	CheckpointDown	0	5012	ediM	raw_chunks/03970_CheckpointDown_5012_ediM.bin
+3972	bitmap	SupersonicOver	0			bitmaps/03972_SupersonicOver.png
+3972	bitmap	SupersonicOver	0	5031	ALFA	raw_chunks/03972_SupersonicOver_5031_ALFA.bin
+3972	bitmap	SupersonicOver	0	5030	ediM	raw_chunks/03972_SupersonicOver_5030_ediM.bin
+4035	sound	crash8	0	5167	snd 	sounds/04035_crash8_5167.mp3
+4035	sound	crash8	0	5167	snd 	raw_chunks/04035_crash8_5167_snd_.bin
+4036	sound	crash7	0	5161	snd 	sounds/04036_crash7_5161.mp3
+4036	sound	crash7	0	5161	snd 	raw_chunks/04036_crash7_5161_snd_.bin
+4038	sound	crash6	0	5155	snd 	sounds/04038_crash6_5155.mp3
+4038	sound	crash6	0	5155	snd 	raw_chunks/04038_crash6_5155_snd_.bin
+4039	sound	crash5	0	5149	snd 	sounds/04039_crash5_5149.mp3
+4039	sound	crash5	0	5149	snd 	raw_chunks/04039_crash5_5149_snd_.bin
+4040	sound	crash4	0	5143	snd 	sounds/04040_crash4_5143.mp3
+4040	sound	crash4	0	5143	snd 	raw_chunks/04040_crash4_5143_snd_.bin
+4171	bitmap	debug	0			bitmaps/04171_debug.png
+4171	bitmap	debug	0	4849	ALFA	raw_chunks/04171_debug_4849_ALFA.bin
+4171	bitmap	debug	0	4848	BITD	raw_chunks/04171_debug_4848_BITD.bin
+4185	sound	crash3	0	5137	snd 	sounds/04185_crash3_5137.mp3
+4185	sound	crash3	0	5137	snd 	raw_chunks/04185_crash3_5137_snd_.bin
+4190	sound	buttonclick	0	5131	snd 	sounds/04190_buttonclick_5131.mp3
+4190	sound	buttonclick	0	5131	snd 	raw_chunks/04190_buttonclick_5131_snd_.bin
+4192	bitmap	carshadow	0			bitmaps/04192_carshadow.png
+4192	bitmap	carshadow	0	5127	ALFA	raw_chunks/04192_carshadow_5127_ALFA.bin
+4192	bitmap	carshadow	0	5126	BITD	raw_chunks/04192_carshadow_5126_BITD.bin
+4247	bitmap	MainBLightingMap	0			bitmaps/04247_MainBLightingMap.png
+4247	bitmap	MainBLightingMap	0	5123	ALFA	raw_chunks/04247_MainBLightingMap_5123_ALFA.bin
+4247	bitmap	MainBLightingMap	0	5122	ediM	raw_chunks/04247_MainBLightingMap_5122_ediM.bin
+4248	bitmap	MainALightingMap	0			bitmaps/04248_MainALightingMap.png
+4248	bitmap	MainALightingMap	0	5120	ALFA	raw_chunks/04248_MainALightingMap_5120_ALFA.bin
+4248	bitmap	MainALightingMap	0	5119	ediM	raw_chunks/04248_MainALightingMap_5119_ediM.bin
+4249	bitmap	005LightingMap	0			bitmaps/04249_005LightingMap.png
+4249	bitmap	005LightingMap	0	5114	ALFA	raw_chunks/04249_005LightingMap_5114_ALFA.bin
+4249	bitmap	005LightingMap	0	5113	ediM	raw_chunks/04249_005LightingMap_5113_ediM.bin
+4250	bitmap	007LightingMap	0			bitmaps/04250_007LightingMap.png
+4250	bitmap	007LightingMap	0	5111	ALFA	raw_chunks/04250_007LightingMap_5111_ALFA.bin
+4250	bitmap	007LightingMap	0	5110	ediM	raw_chunks/04250_007LightingMap_5110_ediM.bin
+4251	bitmap	004LightingMap	0			bitmaps/04251_004LightingMap.png
+4251	bitmap	004LightingMap	0	5108	ALFA	raw_chunks/04251_004LightingMap_5108_ALFA.bin
+4251	bitmap	004LightingMap	0	5107	ediM	raw_chunks/04251_004LightingMap_5107_ediM.bin
+4252	bitmap	002LightingMap	0			bitmaps/04252_002LightingMap.png
+4252	bitmap	002LightingMap	0	5105	ALFA	raw_chunks/04252_002LightingMap_5105_ALFA.bin
+4252	bitmap	002LightingMap	0	5104	ediM	raw_chunks/04252_002LightingMap_5104_ediM.bin
+4253	bitmap	001LightingMap	0			bitmaps/04253_001LightingMap.png
+4253	bitmap	001LightingMap	0	5102	ALFA	raw_chunks/04253_001LightingMap_5102_ALFA.bin
+4253	bitmap	001LightingMap	0	5101	ediM	raw_chunks/04253_001LightingMap_5101_ediM.bin
+4254	bitmap	003LightingMap	0			bitmaps/04254_003LightingMap.png
+4254	bitmap	003LightingMap	0	5099	ALFA	raw_chunks/04254_003LightingMap_5099_ALFA.bin
+4254	bitmap	003LightingMap	0	5098	ediM	raw_chunks/04254_003LightingMap_5098_ediM.bin
+4258	xtra	holypolycrap	0	4881	XMED	raw_chunks/04258_holypolycrap_4881_XMED.bin
+4284	bitmap	006LightingMap	0			bitmaps/04284_006LightingMap.png
+4284	bitmap	006LightingMap	0	5117	ALFA	raw_chunks/04284_006LightingMap_5117_ALFA.bin
+4284	bitmap	006LightingMap	0	5116	ediM	raw_chunks/04284_006LightingMap_5116_ediM.bin
+4296	xtra	arrow2	0	4890	XMED	raw_chunks/04296_arrow2_4890_XMED.bin
+4435	sound	SSRMusicSplashScreen	0	5171	ediM	sounds/04435_SSRMusicSplashScreen_5171.mp3
+4435	sound	SSRMusicSplashScreen	0	5171	ediM	raw_chunks/04435_SSRMusicSplashScreen_5171_ediM.bin
+4436	sound	musicloop1	0	5177	ediM	sounds/04436_musicloop1_5177.mp3
+4436	sound	musicloop1	0	5177	ediM	raw_chunks/04436_musicloop1_5177_ediM.bin
+4437	sound	musicloop2	0	5183	ediM	sounds/04437_musicloop2_5183.mp3
+4437	sound	musicloop2	0	5183	ediM	raw_chunks/04437_musicloop2_5183_ediM.bin
+4438	sound	musicloop3	0	5189	ediM	sounds/04438_musicloop3_5189.mp3
+4438	sound	musicloop3	0	5189	ediM	raw_chunks/04438_musicloop3_5189_ediM.bin
+4439	sound	musicloop4	0	5195	ediM	sounds/04439_musicloop4_5195.mp3
+4439	sound	musicloop4	0	5195	ediM	raw_chunks/04439_musicloop4_5195_ediM.bin
+4440	sound	musicloop5	0	5201	ediM	sounds/04440_musicloop5_5201.mp3
+4440	sound	musicloop5	0	5201	ediM	raw_chunks/04440_musicloop5_5201_ediM.bin
+4783	xtra	havok	0	4879	XMED	raw_chunks/04783_havok_4879_XMED.bin
+4789	xtra	3d	0	4877	XMED	raw_chunks/04789_3d_4877_XMED.bin
+4790	bitmap	Background	0			bitmaps/04790_Background.png
+4790	bitmap	Background	0	4971	BITD	raw_chunks/04790_Background_4971_BITD.bin
