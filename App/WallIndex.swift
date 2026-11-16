@@ -34,4 +34,16 @@ struct WallIndex: Decodable {
         }
         return nearest
     }
+
+    /// Sweep the center and both sides of the car across the same motion.
+    /// This remains an approximation: corners and body rotation are not swept.
+    func firstHit(from origin: SIMD3<Float>, to end: SIMD3<Float>, halfWidth: Float) -> Float? {
+        let delta = end - origin
+        let length = sqrt(delta.x * delta.x + delta.z * delta.z)
+        guard length > 0 else { return nil }
+        let side = SIMD3<Float>(-delta.z / length * halfWidth, 0, delta.x / length * halfWidth)
+        return [-side, SIMD3<Float>.zero, side].compactMap { offset in
+            firstHit(from: origin + offset, to: end + offset)
+        }.min()
+    }
 }
