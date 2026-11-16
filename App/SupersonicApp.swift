@@ -19,6 +19,7 @@ final class DriveScene: NSObject, ObservableObject, SCNSceneRendererDelegate {
     var speed: Float = 0
     var driveDynamics = DriveDynamics()
     var heading: Float = 0
+    var chaseCamera = ChaseCamera()
     var lastTime: TimeInterval = 0
     var verticalMotion = VerticalMotion(height: 3.3866)
     var lastTelemetry: TimeInterval = 0
@@ -65,17 +66,20 @@ final class DriveScene: NSObject, ObservableObject, SCNSceneRendererDelegate {
             print("RECOVERED-CAR: loaded child count = \(model.childNodes.count)")
         }
         camera.camera = SCNCamera(); camera.camera?.zNear = 0.02; camera.camera?.zFar = 300; camera.camera?.fieldOfView = 62
-        scene.rootNode.addChildNode(camera); updateCamera()
+        scene.rootNode.addChildNode(camera); updateCamera(snap: true)
     }
     func box(_ name:String, size:(CGFloat,CGFloat,CGFloat), position:(Float,Float,Float), color:UIColor, parent:SCNNode) {
         let b = SCNBox(width:size.0,height:size.1,length:size.2,chamferRadius:0.04); b.firstMaterial?.diffuse.contents = color
         let n = SCNNode(geometry:b); n.name = name; n.position = SCNVector3(position.0,position.1,position.2); parent.addChildNode(n)
     }
-    func updateCamera() {
-        camera.position = SCNVector3(car.position.x - sin(heading)*0.75, car.position.y + 0.45, car.position.z + cos(heading)*0.75)
+    func updateCamera(dt: Float = 0, snap: Bool = false) {
+        let position = SIMD3<Float>(car.position.x, car.position.y, car.position.z)
+        if snap { chaseCamera.snap(car: position, heading: heading) }
+        else { chaseCamera.follow(car: position, heading: heading, dt: dt) }
+        camera.position = SCNVector3(chaseCamera.position.x, chaseCamera.position.y, chaseCamera.position.z)
         camera.look(at: SCNVector3(car.position.x,car.position.y + 0.06,car.position.z))
     }
-    func reset() { car.position = SCNVector3(37.9017,3.3866,56.9619); heading = 0; speed = 0; driveDynamics.reset(); verticalMotion.reset(height: 3.3866); bodyTilt.eulerAngles = SCNVector3Zero; updateCamera() }
+    func reset() { car.position = SCNVector3(37.9017,3.3866,56.9619); heading = 0; speed = 0; driveDynamics.reset(); verticalMotion.reset(height: 3.3866); bodyTilt.eulerAngles = SCNVector3Zero; updateCamera(snap: true) }
     // The four sample positions come from the original wheel offsets. This is
     // a visual/support approximation, not the original Havok suspension.
     func terrainSupport() -> TerrainSupport.Result? {
@@ -89,6 +93,11 @@ final class DriveScene: NSObject, ObservableObject, SCNSceneRendererDelegate {
         guard lastTime > 0 else { lastTime = time; return }
         let dt = Float(min(time-lastTime, 0.04)); lastTime = time
         if paused { return }
+        if ProcessInfo.processInfo.arguments.contains("--steering-camera-test") {
+            inputs.setTouch(.forward, down: true)
+            inputs.setTouch(.right, down: frameCount < 90)
+            inputs.setTouch(.left, down: frameCount >= 120 && frameCount < 210)
+        }
         if !ProcessInfo.processInfo.arguments.contains("--drive-test") && !ProcessInfo.processInfo.arguments.contains("--drive-cycle-test") && !ProcessInfo.processInfo.arguments.contains("--warehouse-ramp-test") {
             let current = inputs.snapshot()
             steer = current.steer; throttle = current.throttle
@@ -147,7 +156,7 @@ final class DriveScene: NSObject, ObservableObject, SCNSceneRendererDelegate {
             bodyTilt.eulerAngles.z += (support.roll - bodyTilt.eulerAngles.z) * blend
         }
         car.position.x = max(-58,min(53,car.position.x)); car.position.z = max(-88,min(84,car.position.z))
-        updateCamera()
+        updateCamera(dt: dt)
         frameCount += 1
         if ProcessInfo.processInfo.arguments.contains("--telemetry-test"), time - lastTelemetry >= 1 {
             lastTelemetry = time
@@ -156,6 +165,7 @@ final class DriveScene: NSObject, ObservableObject, SCNSceneRendererDelegate {
                                          "verticalSpeed": verticalMotion.velocity, "grounded": verticalMotion.grounded, "contacts": support?.contacts ?? 0,
                                          "pitch": bodyTilt.eulerAngles.x, "roll": bodyTilt.eulerAngles.z, "frames": frameCount,
                                          "wallContacts": wallContacts, "cyclePhase": cyclePhase, "reverseDistance": reverseDistance, "wheelNodes": wheelNodes.count,
+                                         "heading": heading, "steer": steer, "cameraX": chaseCamera.position.x, "cameraZ": chaseCamera.position.z,
                                          "maxHeight": testMaxHeight, "groundedFrames": testGroundedFrames]
             if let data = try? JSONSerialization.data(withJSONObject: sample, options: [.sortedKeys]) {
                 try? data.write(to: FileManager.default.temporaryDirectory.appendingPathComponent("drive-telemetry.json"), options: .atomic)

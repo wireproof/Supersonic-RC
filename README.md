@@ -6,7 +6,7 @@ An in-progress reconstruction of the original LEGO Supersonic RC Free Driving ex
 
 The recovered warehouse and textured car have rendered together in an iPhone Duo simulator. Experimental floor and wall contact use geometry recovered from the original scene. Four-point terrain support, approximate ramp motion, and driving dynamics are under development; these do not reproduce the original physics yet. Touch controls and preliminary keyboard and controller mappings are implemented, but the external controls still need hands-on testing. Mouse support is planned. Suspension, ramp and jump behavior, full collisions, camera behavior, sound mixing and gameplay still need work and comparison against the original.
 
-The experimental warehouse build 0.2.1 (build 4) is installed for testing on the iPhone and iPad. Its touch steering and faster speed tuning await physical-device feedback. The original handling, collisions, camera, audio and gameplay are not yet fully reproduced; this is not a finished remaster.
+The experimental warehouse build 0.2.2 (build 5) is installed for testing on the iPhone and iPad. Its eased follow camera, touch steering and speed tuning await physical-device feedback. The original handling, collisions, camera, audio and gameplay are not yet fully reproduced; this is not a finished remaster.
 
 ## Project layout
 
